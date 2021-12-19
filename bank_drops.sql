@@ -1,0 +1,13 @@
+-- DROP VIEW KortelesGaliojimas;
+-- DROP VIEW SebSaskaitos; 
+-- DROP MATERIALIZED VIEW VisuSaskaituBalansas;
+-- DROP TRIGGER MaxSaskaituSkaicius ON Bank.Saskaita;
+-- DROP TRIGGER KortelesGaliojimoKeitimas ON Bank.Kortele;
+DROP TABLE Bank.KortelesSaskaita;
+DROP TABLE Bank.Kortele;
+DROP TABLE Bank.Saskaita;
+DROP TABLE Bank.Vartotojas;
+DROP TABLE Bank.BankoPaslaugos; 
+DROP TABLE Bank.Bankas;
+DROP TABLE Bank.Paslauga;
+DROP TABLE Bank.KortelesGaliojimoKeitimas;
